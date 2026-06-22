@@ -1,0 +1,38 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 22,
+    "width": 300,
+    "spacing": 5,
+    "margin-top": 5,
+    "modules-left": ["hyprland/workspaces", "hyprland/submap"],
+    "modules-center": [],
+    "modules-right": ["battery", "clock"],
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "disable-scroll": true,
+        "all-outputs": true,
+        "persistent-workspaces": {
+            "*": [1, 2, 3, 4, 5]
+        }
+    },
+    "hyprland/window": {
+        "max-length": 50
+    },
+    "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-full": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{time} {icon}",
+        "format-icons": ["", "", "", "", ""]
+    }
+}
