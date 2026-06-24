@@ -34,4 +34,7 @@ Change to cloned directory and make setup.sh executable -
 $ cd rofi
 $ chmod +x setup.sh
 ```
+
+Copy config.rasi from this repo to `~/.config/rofi/` on your system.
+
 The only thing that I changed is the font. To change the font, go to `$HOME/.config/rofi/launchers/type-2/shared/fonts.rasi`. Use Arimo.
