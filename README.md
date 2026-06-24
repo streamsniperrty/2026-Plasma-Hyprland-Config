@@ -37,4 +37,4 @@ $ chmod +x setup.sh
 
 Copy config.rasi from this repo to `~/.config/rofi/` on your system.
 
-The only thing that I changed is the font. To change the font, go to `$HOME/.config/rofi/launchers/type-2/shared/fonts.rasi`. Use Arimo.
+The only things that I changed are the font and color scheme. To change the font, go to `$HOME/.config/rofi/launchers/type-2/shared/fonts.rasi`. Use Arimo. To change the color scheme, go to `$HOME/.config/rofi/launchers/type-2/shared/colors.rasi` and select `dracula`.
