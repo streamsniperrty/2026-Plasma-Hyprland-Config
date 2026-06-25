@@ -4,7 +4,7 @@ Welcome! This guide will go over how I customized KDE Plasma 6 as well as the Hy
 
 ![Plasma Home](/imgs/plasma_home.png)
 
-Plasma Tricks
+## Plasma Configuration
 - Global theme: Layan
   - Window Decorations: Layan
 
@@ -15,6 +15,17 @@ Fonts Used:
 - Arimo (sans-serif)
 - Tinos (serif)
 - Cousine (monospace)
+
+## Sway Configuration
+
+Install the following packages for sway.
+- fish
+- nvim
+- rofi
+- kitty
+- Hermit Monospaced Font
+
+Copy the config files for fish, nvim, rofi, and kitty in the appropriate locations.
 
 ### Installating Rofi
 This is documented on the official repo: https://github.com/adi1090x/rofi
@@ -38,3 +49,8 @@ $ chmod +x setup.sh
 Copy config.rasi from this repo to `~/.config/rofi/` on your system.
 
 The only things that I changed are the font and color scheme. To change the font, go to `$HOME/.config/rofi/launchers/type-2/shared/fonts.rasi`. Use Arimo. To change the color scheme, go to `$HOME/.config/rofi/launchers/type-2/shared/colors.rasi` and select `dracula`.
+
+### Installing NeoVim
+First, install neovim normally through your package manager. Once completed, install `vim-plug` from https://github.com/junegunn/vim-plug. Then, copy the four files into your own file system, and sync all the plugins by running: `:PlugInstall`.
+
+To use the tree file browser, run `:NvimTreeOpen`.
