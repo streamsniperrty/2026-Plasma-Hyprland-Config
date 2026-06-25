@@ -23,6 +23,7 @@ Install the following packages for sway.
 - nvim
 - rofi
 - kitty
+- swaync (called sway-notification-center on Ubuntu repo)
 - Hermit Monospaced Font
 
 Copy the config files for fish, nvim, rofi, and kitty in the appropriate locations.
